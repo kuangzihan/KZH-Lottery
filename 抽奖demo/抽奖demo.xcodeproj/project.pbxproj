@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7E1872D1E5D2B30008E2CFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E1872C1E5D2B30008E2CFF /* main.m */; };
+		C7E187301E5D2B30008E2CFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E1872F1E5D2B30008E2CFF /* AppDelegate.m */; };
+		C7E187331E5D2B30008E2CFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E187321E5D2B30008E2CFF /* ViewController.m */; };
+		C7E187361E5D2B30008E2CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E187341E5D2B30008E2CFF /* Main.storyboard */; };
+		C7E187381E5D2B30008E2CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E187371E5D2B30008E2CFF /* Assets.xcassets */; };
+		C7E1873B1E5D2B30008E2CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E187391E5D2B30008E2CFF /* LaunchScreen.storyboard */; };
+		C7E187461E5D2B30008E2CFF /* __demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E187451E5D2B30008E2CFF /* __demoTests.m */; };
+		C7E187511E5D2B30008E2CFF /* __demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E187501E5D2B30008E2CFF /* __demoUITests.m */; };
+		C7E187601E5D2B64008E2CFF /* KZHLotteryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E1875F1E5D2B64008E2CFF /* KZHLotteryCell.m */; };
+		C7E187631E5D2C50008E2CFF /* KZHLotteryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E187621E5D2C50008E2CFF /* KZHLotteryButton.m */; };
+		C7E187661E5D6873008E2CFF /* KZHLuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E187651E5D6873008E2CFF /* KZHLuckView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7E187421E5D2B30008E2CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E187201E5D2B30008E2CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E187271E5D2B30008E2CFF;
+			remoteInfo = "抽奖demo";
+		};
+		C7E1874D1E5D2B30008E2CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E187201E5D2B30008E2CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E187271E5D2B30008E2CFF;
+			remoteInfo = "抽奖demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7E187281E5D2B30008E2CFF /* 抽奖demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽奖demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E1872C1E5D2B30008E2CFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7E1872E1E5D2B30008E2CFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7E1872F1E5D2B30008E2CFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7E187311E5D2B30008E2CFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7E187321E5D2B30008E2CFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7E187351E5D2B30008E2CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7E187371E5D2B30008E2CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7E1873A1E5D2B30008E2CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7E1873C1E5D2B30008E2CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E187411E5D2B30008E2CFF /* 抽奖demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "抽奖demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E187451E5D2B30008E2CFF /* __demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoTests.m; sourceTree = "<group>"; };
+		C7E187471E5D2B30008E2CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E1874C1E5D2B30008E2CFF /* 抽奖demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "抽奖demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E187501E5D2B30008E2CFF /* __demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __demoUITests.m; sourceTree = "<group>"; };
+		C7E187521E5D2B30008E2CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E1875E1E5D2B64008E2CFF /* KZHLotteryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZHLotteryCell.h; sourceTree = "<group>"; };
+		C7E1875F1E5D2B64008E2CFF /* KZHLotteryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZHLotteryCell.m; sourceTree = "<group>"; };
+		C7E187611E5D2C50008E2CFF /* KZHLotteryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZHLotteryButton.h; sourceTree = "<group>"; };
+		C7E187621E5D2C50008E2CFF /* KZHLotteryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZHLotteryButton.m; sourceTree = "<group>"; };
+		C7E187641E5D6873008E2CFF /* KZHLuckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZHLuckView.h; sourceTree = "<group>"; };
+		C7E187651E5D6873008E2CFF /* KZHLuckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZHLuckView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7E187251E5D2B30008E2CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E1873E1E5D2B30008E2CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E187491E5D2B30008E2CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7E1871F1E5D2B30008E2CFF = {
+			isa = PBXGroup;
+			children = (
+				C7E1872A1E5D2B30008E2CFF /* 抽奖demo */,
+				C7E187441E5D2B30008E2CFF /* 抽奖demoTests */,
+				C7E1874F1E5D2B30008E2CFF /* 抽奖demoUITests */,
+				C7E187291E5D2B30008E2CFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7E187291E5D2B30008E2CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7E187281E5D2B30008E2CFF /* 抽奖demo.app */,
+				C7E187411E5D2B30008E2CFF /* 抽奖demoTests.xctest */,
+				C7E1874C1E5D2B30008E2CFF /* 抽奖demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7E1872A1E5D2B30008E2CFF /* 抽奖demo */ = {
+			isa = PBXGroup;
+			children = (
+				C7E1872E1E5D2B30008E2CFF /* AppDelegate.h */,
+				C7E1872F1E5D2B30008E2CFF /* AppDelegate.m */,
+				C7E187311E5D2B30008E2CFF /* ViewController.h */,
+				C7E187321E5D2B30008E2CFF /* ViewController.m */,
+				C7E187611E5D2C50008E2CFF /* KZHLotteryButton.h */,
+				C7E187621E5D2C50008E2CFF /* KZHLotteryButton.m */,
+				C7E1875E1E5D2B64008E2CFF /* KZHLotteryCell.h */,
+				C7E1875F1E5D2B64008E2CFF /* KZHLotteryCell.m */,
+				C7E187641E5D6873008E2CFF /* KZHLuckView.h */,
+				C7E187651E5D6873008E2CFF /* KZHLuckView.m */,
+				C7E187341E5D2B30008E2CFF /* Main.storyboard */,
+				C7E187371E5D2B30008E2CFF /* Assets.xcassets */,
+				C7E187391E5D2B30008E2CFF /* LaunchScreen.storyboard */,
+				C7E1873C1E5D2B30008E2CFF /* Info.plist */,
+				C7E1872B1E5D2B30008E2CFF /* Supporting Files */,
+			);
+			path = "抽奖demo";
+			sourceTree = "<group>";
+		};
+		C7E1872B1E5D2B30008E2CFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7E1872C1E5D2B30008E2CFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7E187441E5D2B30008E2CFF /* 抽奖demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E187451E5D2B30008E2CFF /* __demoTests.m */,
+				C7E187471E5D2B30008E2CFF /* Info.plist */,
+			);
+			path = "抽奖demoTests";
+			sourceTree = "<group>";
+		};
+		C7E1874F1E5D2B30008E2CFF /* 抽奖demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E187501E5D2B30008E2CFF /* __demoUITests.m */,
+				C7E187521E5D2B30008E2CFF /* Info.plist */,
+			);
+			path = "抽奖demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7E187271E5D2B30008E2CFF /* 抽奖demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E187551E5D2B30008E2CFF /* Build configuration list for PBXNativeTarget "抽奖demo" */;
+			buildPhases = (
+				C7E187241E5D2B30008E2CFF /* Sources */,
+				C7E187251E5D2B30008E2CFF /* Frameworks */,
+				C7E187261E5D2B30008E2CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "抽奖demo";
+			productName = "抽奖demo";
+			productReference = C7E187281E5D2B30008E2CFF /* 抽奖demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7E187401E5D2B30008E2CFF /* 抽奖demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E187581E5D2B30008E2CFF /* Build configuration list for PBXNativeTarget "抽奖demoTests" */;
+			buildPhases = (
+				C7E1873D1E5D2B30008E2CFF /* Sources */,
+				C7E1873E1E5D2B30008E2CFF /* Frameworks */,
+				C7E1873F1E5D2B30008E2CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E187431E5D2B30008E2CFF /* PBXTargetDependency */,
+			);
+			name = "抽奖demoTests";
+			productName = "抽奖demoTests";
+			productReference = C7E187411E5D2B30008E2CFF /* 抽奖demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7E1874B1E5D2B30008E2CFF /* 抽奖demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E1875B1E5D2B30008E2CFF /* Build configuration list for PBXNativeTarget "抽奖demoUITests" */;
+			buildPhases = (
+				C7E187481E5D2B30008E2CFF /* Sources */,
+				C7E187491E5D2B30008E2CFF /* Frameworks */,
+				C7E1874A1E5D2B30008E2CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E1874E1E5D2B30008E2CFF /* PBXTargetDependency */,
+			);
+			name = "抽奖demoUITests";
+			productName = "抽奖demoUITests";
+			productReference = C7E1874C1E5D2B30008E2CFF /* 抽奖demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7E187201E5D2B30008E2CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "邝子涵";
+				TargetAttributes = {
+					C7E187271E5D2B30008E2CFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PY7ZU58Z7K;
+						ProvisioningStyle = Automatic;
+					};
+					C7E187401E5D2B30008E2CFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PY7ZU58Z7K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C7E187271E5D2B30008E2CFF;
+					};
+					C7E1874B1E5D2B30008E2CFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PY7ZU58Z7K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C7E187271E5D2B30008E2CFF;
+					};
+				};
+			};
+			buildConfigurationList = C7E187231E5D2B30008E2CFF /* Build configuration list for PBXProject "抽奖demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7E1871F1E5D2B30008E2CFF;
+			productRefGroup = C7E187291E5D2B30008E2CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7E187271E5D2B30008E2CFF /* 抽奖demo */,
+				C7E187401E5D2B30008E2CFF /* 抽奖demoTests */,
+				C7E1874B1E5D2B30008E2CFF /* 抽奖demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7E187261E5D2B30008E2CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E1873B1E5D2B30008E2CFF /* LaunchScreen.storyboard in Resources */,
+				C7E187381E5D2B30008E2CFF /* Assets.xcassets in Resources */,
+				C7E187361E5D2B30008E2CFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E1873F1E5D2B30008E2CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E1874A1E5D2B30008E2CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7E187241E5D2B30008E2CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E187331E5D2B30008E2CFF /* ViewController.m in Sources */,
+				C7E187301E5D2B30008E2CFF /* AppDelegate.m in Sources */,
+				C7E187631E5D2C50008E2CFF /* KZHLotteryButton.m in Sources */,
+				C7E187661E5D6873008E2CFF /* KZHLuckView.m in Sources */,
+				C7E1872D1E5D2B30008E2CFF /* main.m in Sources */,
+				C7E187601E5D2B64008E2CFF /* KZHLotteryCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E1873D1E5D2B30008E2CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E187461E5D2B30008E2CFF /* __demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E187481E5D2B30008E2CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E187511E5D2B30008E2CFF /* __demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7E187431E5D2B30008E2CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E187271E5D2B30008E2CFF /* 抽奖demo */;
+			targetProxy = C7E187421E5D2B30008E2CFF /* PBXContainerItemProxy */;
+		};
+		C7E1874E1E5D2B30008E2CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E187271E5D2B30008E2CFF /* 抽奖demo */;
+			targetProxy = C7E1874D1E5D2B30008E2CFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7E187341E5D2B30008E2CFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7E187351E5D2B30008E2CFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7E187391E5D2B30008E2CFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7E1873A1E5D2B30008E2CFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7E187531E5D2B30008E2CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7E187541E5D2B30008E2CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7E187561E5D2B30008E2CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PY7ZU58Z7K;
+				INFOPLIST_FILE = "抽奖demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LoveForMe.iOS.--demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7E187571E5D2B30008E2CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PY7ZU58Z7K;
+				INFOPLIST_FILE = "抽奖demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LoveForMe.iOS.--demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7E187591E5D2B30008E2CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PY7ZU58Z7K;
+				INFOPLIST_FILE = "抽奖demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LoveForMe.iOS.--demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/抽奖demo.app/抽奖demo";
+			};
+			name = Debug;
+		};
+		C7E1875A1E5D2B30008E2CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PY7ZU58Z7K;
+				INFOPLIST_FILE = "抽奖demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LoveForMe.iOS.--demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/抽奖demo.app/抽奖demo";
+			};
+			name = Release;
+		};
+		C7E1875C1E5D2B30008E2CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PY7ZU58Z7K;
+				INFOPLIST_FILE = "抽奖demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LoveForMe.iOS.--demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "抽奖demo";
+			};
+			name = Debug;
+		};
+		C7E1875D1E5D2B30008E2CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PY7ZU58Z7K;
+				INFOPLIST_FILE = "抽奖demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LoveForMe.iOS.--demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "抽奖demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7E187231E5D2B30008E2CFF /* Build configuration list for PBXProject "抽奖demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E187531E5D2B30008E2CFF /* Debug */,
+				C7E187541E5D2B30008E2CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E187551E5D2B30008E2CFF /* Build configuration list for PBXNativeTarget "抽奖demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E187561E5D2B30008E2CFF /* Debug */,
+				C7E187571E5D2B30008E2CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E187581E5D2B30008E2CFF /* Build configuration list for PBXNativeTarget "抽奖demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E187591E5D2B30008E2CFF /* Debug */,
+				C7E1875A1E5D2B30008E2CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E1875B1E5D2B30008E2CFF /* Build configuration list for PBXNativeTarget "抽奖demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E1875C1E5D2B30008E2CFF /* Debug */,
+				C7E1875D1E5D2B30008E2CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7E187201E5D2B30008E2CFF /* Project object */;
+}
